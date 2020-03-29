@@ -1,15 +1,22 @@
 {   
     "gitbook": ">= 3.2.2",
+    "title": "QGroundControl Developer Guide",
+    "variables": {
+        "logo": "./assets/site/logo_qgc_rgb_horizontal.png",
+        "qt_version": "5.12.6"
+    },
     "plugins": [
         "youtube",
-        "richquotes",
+        "richquotes@git+https://github.com/Dronecode/gitbook-plugin-richquotes.git",
+        "anchors",
         "page-toc-button",
         "collapsible-menu",
         "language-picker",
         "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git",
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
-        "-validate-links"
+        "validate-links",
+        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git" 
         
     ],
     "pluginsConfig": {       

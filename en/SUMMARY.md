@@ -1,6 +1,8 @@
 # Summary
 
 * [Overview](README.md)
+* [Getting Started](getting_started/README.md)
+  * [Using QGC on CentOS](getting_started/CentOS.md)
 * [Communication Flow](communication_flow.md)
 * [Firmware Plugins](firmware_plugin.md)
 * [Class Hierarchy](classes/README.md)
@@ -17,21 +19,23 @@
 * [File Formats](file_formats/README.md)
     * [Parameters](file_formats/parameters.md)
     * [Plan](file_formats/plan.md)
-    * [Survey](file_formats/survey.md)
-    * [Rally Points](file_formats/rally.md)
-    * [GeoFence](file_formats/fence.md)
+    * [MAVLink Logs](file_formats/mavlink.md)
 * [Developer Tools](tools/README.md)
   * [Mock Link](tools/mock_link.md)
-  * [Custom Command Widgets](tools/custom_command_widget.md)
+* [Command Line Options](command_line_options.md)
+* [Custom Builds](custom_build/custom_build.md)
+  * [Updating custom builds from QGC repro](custom_build/upstream_merge.md) 
 * [Code Submission](contribute/README.md)
   * [Coding Style](contribute/coding_style.md)
   * [Unit Tests](contribute/unit_tests.md)
   * [Pull Requests](contribute/pull_requests.md)
-
+  * [Licenses](contribute/licences.md)
 
 ## Dronecode Shortcuts
 
 * [QGroundControl User Guide](https://docs.qgroundcontrol.com/en/)
 * [PX4 User Guide](https://docs.px4.io/en/)
 * [PX4 Developer Guide](https://dev.px4.io/en/)
-* [MAVLink Developer Guide](https://mavlink.io/en/)
+* [MAVLink Guide](https://mavlink.io/en/)
+* [MAVSDK](https://mavsdk.mavlink.io/)
+* [Dronecode Camera Manager](https://camera-manager.dronecode.org/en/)

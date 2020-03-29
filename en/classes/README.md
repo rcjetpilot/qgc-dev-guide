@@ -12,7 +12,7 @@ There is a single `MAVLinkProtocol` object in the system. It's job is to take in
 
 ## MultiVehicleManager
 
-There is a single `MultiVehicleManager` object within the system. When it receives a HEARTBEAT on a link which has not been previously seen it creates a Vehicle object. ``MultiVehicleManager` also keeps tracks of all Vehicles in the system and handles switching from one active vehicle to another and correctly handling a vehicle being removed.
+There is a single `MultiVehicleManager` object within the system. When it receives a HEARTBEAT on a link which has not been previously seen it creates a Vehicle object. `MultiVehicleManager` also keeps tracks of all Vehicles in the system and handles switching from one active vehicle to another and correctly handling a vehicle being removed.
 
 ## Vehicle
 
@@ -22,7 +22,7 @@ Note: There is also a UAS object associated with each Vehicle which is a depreca
 
 ## FirmwarePlugin, FirmwarePluginManager
 
-The FirmwarePlugin class is used an the base class for firmware plugins. A firmware plugin contains the firmware specific code, such that the Vehicle object is clean with respect to it supporting a single standard interface to the UI.
+The FirmwarePlugin class is the base class for firmware plugins. A firmware plugin contains the firmware specific code, such that the Vehicle object is clean with respect to it supporting a single standard interface to the UI.
 
 FirmwarePluginManager is a factory class which creates a FirmwarePlugin instance based on the MAV_AUTOPILOT/MAV_TYPE combination for the Vehicle.
 
